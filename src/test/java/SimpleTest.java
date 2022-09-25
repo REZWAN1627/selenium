@@ -16,7 +16,6 @@ public class SimpleTest {
         System.setProperty("webdriver.chrome.driver","src/driver/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/");
-        Assert.assertEquals(1,2);
         System.out.println("Test 2 done");
     }
     @Test()
