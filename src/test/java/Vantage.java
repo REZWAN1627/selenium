@@ -1,9 +1,8 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SimpleTest {
+public class Vantage {
     @Test()
     public void test(){
         System.setProperty("webdriver.chrome.driver","src/driver/chromedriver.exe");
